@@ -150,3 +150,6 @@ int android_reboot(int cmd, int flags, char *arg)
     return ret;
 }
 
+void __android_logPower_print()
+{
+}
